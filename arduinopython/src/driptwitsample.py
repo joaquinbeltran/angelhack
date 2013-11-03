@@ -12,7 +12,7 @@ import serial
 import time
 
 ##authenticate yourself with twitter
-api = twitter.Api(consumer_key='your key here', consumer_secret='your key here', access_token_key='your key here', access_token_secret='your here here') 
+api = twitter.Api(consumer_key='qsNzAlQRZ8sxDFTqWLAuw', consumer_secret='CsFpIBujbrzJvPoNu6HQ1V1IOQMBqZ3cE1SpRqvKSk', access_token_key='2171293940-VfiwNLKbWLssgb4fc5FNK50lJQScmptxNScNilh', access_token_secret='Um4LcZte9S4pezX7IpCBBxXKBcfuEH4Eb579AdAoMR5ec') 
 
 ##set to your serial port
 ser = serial.Serial('/dev/ttyUSB0', 19200)
